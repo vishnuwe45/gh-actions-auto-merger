@@ -11,6 +11,7 @@ import random
 from werkzeug.utils import secure_filename
 from docx import Document
 import yaml
+import sys
 
 from tornado.wsgi import WSGIContainer
 from tornado.httpserver import HTTPServer
